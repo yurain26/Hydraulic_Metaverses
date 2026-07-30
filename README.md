@@ -1,7 +1,8 @@
-# Water Conservancy Metaverse Agent
+# Hydraulic Metaverses
 
-This directory contains the Water Conservancy Metaverse Agent's LLM code used
-in the paper. It is intentionally limited to the files needed to disclose the prompts,
+This repository contains the LLM-agent component used in the paper
+**“LLM Agent-Driven UAV Swarm for PoI Continual Monitoring in Hydraulic
+Metaverses.”** It is intentionally limited to the files needed to disclose the prompts,
 LLM calls, output parsing, and high-level agent protocol. The
 UAV routing implementation, learning model, environment, data, and plotting code
 are not included.

@@ -1,4 +1,4 @@
-"""LLM scheduler excerpt used by the Water Conservancy Metaverse Agent.
+"""LLM scheduler excerpt used by the Hydraulic Metaverses Agent.
 
 Only the model configuration, scheduler prompt, and scheduler-agent call are
 retained from the paper implementation. Environment, routing, learning, metric,

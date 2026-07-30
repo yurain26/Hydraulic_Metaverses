@@ -105,17 +105,3 @@ Scheduler action-format errors are handled by LangChain through
 Logically inconsistent fleet-size proposals cannot directly produce an accepted
 solution: every proposed count is evaluated by the deterministic route planner
 against the monitoring, energy, and delay requirements.
-
-## Experiment protocol
-
-`experiment_setting` reproduces the three-pass configuration used by the agent
-experiments:
-
-| Setting | Passes |
-|---|---|
-| Refinement comparison (`llm_ref`) | refinement frequencies `1`, `2`, and `3` |
-| Model comparison (`llm_agt`) | `gpt-3.5-turbo`, `gpt-4o`, and `gpt-4.1`, with refinement frequency `2` |
-| Default | three passes with `gpt-3.5-turbo` and the configured refinement frequency |
-
-Each pass creates a new LLM instance and agent execution. The environment and
-route planner provide the runtime state and feedback used at each time slot.
